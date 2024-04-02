@@ -11,6 +11,11 @@
 - app: Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.
     - app/lib: Contains functions used in your application, such as reusable utility functions and data fetching functions.
         - data.ts: Reading data from DB.
+        - definitions.ts: Type definition to convert Database "variable types" to React/JSX "variable types"
+        - utils.ts: [I DON'T UNDERSTAND]
     - app/ui: Contains all the UI components for your application, such as cards, tables, and forms. To save time, we've pre-styled these components for you.
-/public: Contains all the static assets for your application, such as images.
-/scripts: Inserting data into DB. Contains a seeding script that you'll use to populate your database in a later chapter.
+        - customers: [I DON'T UNDERSTAND]
+        - dashboard: [I DON'T UNDERSTAND]
+        - invoices: [I DON'T UNDERSTAND]
+- public: Contains all the static assets for your application, such as images.
+- scripts: Inserting data into DB. Contains a seeding script that you'll use to populate your database in a later chapter.

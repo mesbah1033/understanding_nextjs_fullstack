@@ -5,6 +5,11 @@
 
 - Using this repo to track my progress throught this course 
 
+## To Run
+- cd into nextjs-dashboard
+- npm i
+- npm run dev
+
 
 ## All the files explained
 
@@ -13,6 +18,7 @@
         - data.ts: Reading data from DB.
         - definitions.ts: Type definition to convert Database "variable types" to React/JSX "variable types"
         - utils.ts: [I DON'T UNDERSTAND]
+        - placeholder-data.js: Placeholder data for the DB. Each JavaScript object in the file represents a table in your database
     - app/ui: Contains all the UI components for your application, such as cards, tables, and forms. To save time, we've pre-styled these components for you.
         - customers: [I DON'T UNDERSTAND]
         - dashboard: [I DON'T UNDERSTAND]

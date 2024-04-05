@@ -31,3 +31,14 @@
 - Client Components 
     1. Components that are used for React hooks or handling user interactions
     2. In NextJS, need to add "use client" at the top of the component file to make the component a  **Client component**
+
+### Chapter 5 - Routing
+- Deleted everything inside src
+- created app folder
+- app folder + page.tsx is what serves a page at localhost:3000 (homepage)
+- layout.tsx gets created on next build
+- In NextJS, every folder is a URL path as long as all the 3 conventions of routing are matched
+    - All routes must be placed in the **app** folder
+    - All the folders must have a page.tsx file
+    - Every folder is a Path segments in the browser URL
+- 404 page not found is automatically handled by NextJS     

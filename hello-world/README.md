@@ -41,4 +41,9 @@
     - All routes must be placed in the **app** folder
     - All the folders must have a page.tsx file
     - Every folder is a Path segments in the browser URL
-- 404 page not found is automatically handled by NextJS     
+- 404 page not found is automatically handled by NextJS   
+
+
+### Chapter 6 - Dynamic Routing
+- Folders nested in a folder can have their own paths 
+- Esessentially each folder NAME in the **app** is a URL path as long as it has a page.tsx

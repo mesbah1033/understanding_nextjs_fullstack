@@ -63,3 +63,8 @@
     - products > [productId] > reviews > page.tsx
 - lets say you need to show a **specific Product** 
     - products > [productId] > page.tsx
+
+
+### Chapter 9 - Catch all Segments
+- Basically using "docs" and [...slug] in the app  to create a route that works to catch all different scenarios
+- [[...slug]] wrapped slug is used for "catch-all" segment so if you go to localhost3000/docs you should not get 404 instead get docs homepage

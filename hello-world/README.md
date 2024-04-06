@@ -54,3 +54,12 @@
 - the page.tsx inside a [folder] can therefore be access with any number and that number can be displayed in the page.tsx as it gets passed down the route as a prop. 
 - The above 2 logic together gives us the system of dynamic routes where you can have any number of routes e.g., hello.com/product/72 this URL would contain the details of the product "72".
 - some typescript fixes were also made here (i don't understand typescript that well so will keep it for later)
+
+
+### Chapter 8 - Nested Dynamic Routes
+- lets say you need to show a **specific Review** for a specific Product then you do use nested dynamic routes
+    - products > [productId] > reviews > [reviewId] > page.tsx
+- lets say you need to show **all Reviews** for a specific Product then you do use nested dynamic routes
+    - products > [productId] > reviews > page.tsx
+- lets say you need to show a **specific Product** 
+    - products > [productId] > page.tsx

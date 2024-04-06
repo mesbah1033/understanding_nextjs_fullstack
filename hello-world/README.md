@@ -47,3 +47,10 @@
 ### Chapter 6 - Dynamic Routing
 - Folders nested in a folder can have their own paths 
 - Esessentially each folder NAME in the **app** is a URL path as long as it has a page.tsx
+
+
+### Chapter 7 - Dynamic Routes
+- any [folder] in a square bracket is a dynamic route meaning if folder name is [id] and your url is hello.com/32 then the number 32 gets passed in the id param from the url path. 
+- the page.tsx inside a [folder] can therefore be access with any number and that number can be displayed in the page.tsx as it gets passed down the route as a prop. 
+- The above 2 logic together gives us the system of dynamic routes where you can have any number of routes e.g., hello.com/product/72 this URL would contain the details of the product "72".
+- some typescript fixes were also made here (i don't understand typescript that well so will keep it for later)

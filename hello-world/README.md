@@ -73,3 +73,7 @@
 ### Chapter 10 - Not Found Page
 - custom Not Found Page for "entire" app (any unspecified routes) can be made by creating **not-found.tsx** at the src/app route
 - specific Not Found Page can be created by using { notFound } from next/navigation and using it as a notFound() function within that specific page.tsx. Example provided in reviews/page.tsx
+
+
+### Chapter 11 - Collocation of file
+- you can only access a route if it has a page.tsx file with an export default function present?

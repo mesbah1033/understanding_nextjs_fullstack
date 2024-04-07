@@ -77,3 +77,7 @@
 
 ### Chapter 11 - Collocation of file
 - you can only access a route if it has a page.tsx file with an export default function present?
+
+
+### Chapter 12 - Private folders
+- folders prefixed with an underscore are private and not accesible by public even if you have a working page.tsx file in it. Example, src/app/_lib will give you a 404 not found although it has a working page.tsx

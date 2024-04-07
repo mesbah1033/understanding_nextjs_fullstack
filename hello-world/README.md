@@ -68,3 +68,8 @@
 ### Chapter 9 - Catch all Segments
 - Basically using "docs" and [...slug] in the app  to create a route that works to catch all different scenarios
 - [[...slug]] wrapped slug is used for "catch-all" segment so if you go to localhost3000/docs you should not get 404 instead get docs homepage
+
+
+### Chapter 10 - Not Found Page
+- custom Not Found Page for "entire" app (any unspecified routes) can be made by creating **not-found.tsx** at the src/app route
+- specific Not Found Page can be created by using { notFound } from next/navigation and using it as a notFound() function within that specific page.tsx. Example provided in reviews/page.tsx

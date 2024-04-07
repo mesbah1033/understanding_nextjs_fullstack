@@ -86,3 +86,8 @@
 ### Chapter 13 - Route Groups
 - creating a folder with parenthesis in the name will make it a route group and the URL path will ignore this subsection.
 - Example you can go to localhost:3000/register and don't have to include /auth/ in the URL path
+
+
+### Chapter 14 - Layouts
+- Layouts are used to share UI across multiple pages
+- Header and Footer that has the same design across all pages will need to set up in the layout.tsx

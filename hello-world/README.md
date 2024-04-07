@@ -81,3 +81,8 @@
 
 ### Chapter 12 - Private folders
 - folders prefixed with an underscore are private and not accesible by public even if you have a working page.tsx file in it. Example, src/app/_lib will give you a 404 not found although it has a working page.tsx
+
+
+### Chapter 13 - Route Groups
+- creating a folder with parenthesis in the name will make it a route group and the URL path will ignore this subsection.
+- Example you can go to localhost:3000/register and don't have to include /auth/ in the URL path
